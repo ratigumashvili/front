@@ -1,0 +1,21 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "comitee": "Comitees",
+        "speakers": "Keynote Speakers",
+        "dates": "Dates",
+        "program": "Program",
+        "information": "Practical Information"
+    },
+    "footer": {
+        "isu": "Ilia State University",
+        "mail": "lecamiconference@iliauni.edu.ge"
+    },
+    "homepage": {
+        "title": "Hello world!"
+    },
+    "comitee": {
+        "title": "კომიტეტი"
+    }
+}

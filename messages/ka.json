@@ -1,0 +1,21 @@
+{
+    "menu": {
+        "home": "მთავარი",
+        "about": "შესახებ",
+        "comitee": "კომიტეტები",
+        "speakers": "მომხსენებლები",
+        "dates": "თარიღები",
+        "program": "პროგრამა",
+        "information": "პრაქტიკული ინფორმაცია"
+    },
+    "footer": {
+        "isu": "ილიას სახელმწიფო უნივერსიტეტი",
+        "mail": "lecamiconference@iliauni.edu.ge"
+    },
+    "homepage": {
+        "title": "გამარჯობა"
+    },
+    "comitee": {
+        "title": "კომიტეტი"
+    }
+}
