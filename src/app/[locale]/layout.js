@@ -1,13 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
-import { Inter } from "next/font/google";
+import { firaGo } from '../lib/fonts';
+
 import "./globals.css";
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Legacy of Catholic Missions",
@@ -20,7 +19,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body className={`${inter.className} bg-slate-50`}>
+      <body className={`${firaGo.variable} font-firaGo font-light bg-slate-50`}>
         <NextIntlClientProvider messages={messages}>
           <div className='flex flex-col min-h-screen'>
             <Header locale={locale} />
