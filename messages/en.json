@@ -17,5 +17,10 @@
     },
     "comitee": {
         "title": "კომიტეტი"
+    },
+    "shared": {
+        "speakers": "Keynote Speakers",
+        "next": "Next",
+        "previous": "Previous"
     }
 }

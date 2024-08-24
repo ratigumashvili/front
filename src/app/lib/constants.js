@@ -12,7 +12,7 @@ export const navMenu = [
     {
         id: 3,
         title: 'comitee',
-        path: '/comitee'
+        path: '/comitees'
     },
     {
         id: 4,
@@ -35,3 +35,6 @@ export const navMenu = [
         path: '/information'
     }
 ]
+
+export const FIRST_PAGE = 1
+export const PER_PAGE = 3

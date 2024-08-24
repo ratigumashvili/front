@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.switch {
+    @apply w-[40px] h-[20px] border rounded-full flex items-center relative p-[1px] cursor-pointer
+}
+
+.switch-circle {
+    @apply w-[16px] h-[16px] rounded-full bg-slate-900
+}
+
+.active {
+    @apply relative before:absolute before:w-full before:h-1 before:top-7 before:bg-red-700
+}
+
+@layer components {
+    .list {
+        @apply pl-8 relative before:absolute before:w-6 before:h-1 before:left-2 before:top-[50%] before:translate-x-[-50%] before:bg-red-700
+    }
+}
