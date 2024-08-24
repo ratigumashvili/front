@@ -27,7 +27,7 @@ function Header({ locale }) {
 
 export default Header
 
-const NavbarDesktop = ({locale}) => {
+const NavbarDesktop = ({ locale }) => {
 
     const t = useTranslations("menu")
 
@@ -42,14 +42,14 @@ const NavbarDesktop = ({locale}) => {
                     <Link key={id} href={`${path}`} className={`${pathname === path ? 'active' : ''}`}>{t(title)}</Link>
                 ))}
             </div>
-            
+
             <LanguageSwitcher locale={locale} />
 
         </div>
     )
 }
 
-const NavbarMobile = ({locale}) => {
+const NavbarMobile = ({ locale }) => {
 
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -70,9 +70,12 @@ const NavbarMobile = ({locale}) => {
         <div className='relative w-full lg:hidden'>
 
             <div className='flex items-center justify-between'>
-                <button onClick={toggleMenu}>
-                    {menuOpen ? <X width={35} height={35} /> : <Menu width={35} height={35} />}
-                </button>
+                <div className='flex items-center gap-4'>
+                    <Image src={'/iliauni-logo_eng.png'} width={50} height={50} alt='ISU' />
+                    <button onClick={toggleMenu}>
+                        {menuOpen ? <X width={35} height={35} /> : <Menu width={35} height={35} />}
+                    </button>
+                </div>
 
                 <LanguageSwitcher locale={locale} />
             </div>
