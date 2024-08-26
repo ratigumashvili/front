@@ -2,8 +2,7 @@
     "menu": {
         "home": "Home",
         "about": "About",
-        "comitee": "Comitees",
-        "speakers": "Keynote Speakers",
+        "committee": "Committee",
         "dates": "Dates",
         "program": "Program",
         "information": "Practical Information"

@@ -11,13 +11,8 @@ export const navMenu = [
     },
     {
         id: 3,
-        title: 'comitee',
+        title: 'committee',
         path: '/comitees'
-    },
-    {
-        id: 4,
-        title: 'speakers',
-        path: '/speakers'
     },
     {
         id: 5,
