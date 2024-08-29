@@ -1,6 +1,8 @@
 const { default: axios } = require("axios")
 
-const apiUrl = 'http://localhost:1337/api'
+const apiUrl = 'https://lecami-back.iliauni.edu.ge/api'
+
+// https://lecami.iliauni.edu.ge/api
 
 export const getSinglePage = (path, locale, params) => axios.get(`${apiUrl}/${path}?locale=${locale}&${params}`).then((resp) => resp.data).catch((error) => error.message)
 
