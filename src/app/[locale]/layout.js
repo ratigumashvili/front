@@ -12,7 +12,10 @@ export const metadata = {
   description: "Religious fragmentation and connectedness in Georgia in the 18th and 19th centuries",
   openGraph: {
     images: 'https://res.cloudinary.com/djvaj2g97/image/upload/v1724447311/banner_b45cc4ea8b.png'
-  }
+  },
+  icons: {
+    icon: '../favicon.ico',
+  },
 };
 
 export default async function LocaleLayout({ children, params: { locale } }) {
